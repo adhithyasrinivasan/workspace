@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="101" key="HistoryTableProvider.revisions.Revision"/>
+	<item value="108" key="HistoryTableProvider.HistoryDialog.Date"/>
+	<item value="603" key="HistoryDialog.location.x"/>
+	<item value="195" key="HistoryDialog.location.y"/>
+	<item value="252" key="HistoryTableProvider.revisionsBlock.Date"/>
+	<item value="613" key="passwordStores.size.y"/>
+	<item value="502" key="HistoryTableProvider.revisions.Comment"/>
+	<item value="1036" key="passwordStores.size.x"/>
+	<item value="192" key="passwordStores2.location.y"/>
+	<item value="545" key="passwordStores2.location.x"/>
+	<item value="101" key="HistoryTableProvider.revisionsBlock.Revision"/>
+	<item value="503" key="HistoryTableProvider.MergeWizardUnblockRevisionsPage.Comment"/>
+	<item value="200" key="HistoryDialog.weights.0"/>
+	<item value="86" key="HistoryTableProvider.HistoryDialog.Author"/>
+	<item value="252" key="HistoryTableProvider.MergeWizardUnblockRevisionsPage.Date"/>
+	<item value="182" key="CommitDialog.location.y"/>
+	<item value="68" key="passwordStores.location.y"/>
+	<item value="84" key="CommitDialog.location.x"/>
+	<item value="285" key="passwordStores.location.x"/>
+	<item value="200" key="HistoryDialog.weights.2"/>
+	<item value="200" key="HistoryDialog.weights.1"/>
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="43" key="HistoryTableProvider.HistoryDialog.Revision"/>
+	<item value="201" key="HistoryTableProvider.MergeWizardUnblockRevisionsPage.Author"/>
+	<item value="442" key="CommitDialog.size.y"/>
+	<item value="1438" key="CommitDialog.size.x"/>
+	<item value="252" key="HistoryTableProvider.revisions.Date"/>
+	<item value="502" key="HistoryTableProvider.revisionsBlock.Comment"/>
+	<item value="200" key="HistoryTableProvider.revisionsBlock.Author"/>
+	<item value="200" key="HistoryTableProvider.revisions.Author"/>
+	<item value="592" key="HistoryDialog.size.x"/>
+	<item value="101" key="HistoryTableProvider.MergeWizardUnblockRevisionsPage.Revision"/>
+	<item value="327" key="HistoryTableProvider.HistoryDialog.Comment"/>
+	<item value="400" key="HistoryDialog.size.y"/>
+	<item value="516" key="passwordStores2.size.x"/>
+	<item value="427" key="passwordStores2.size.y"/>
+	<section name="CommitWizard">
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+		<item value="false" key="ShowCompare"/>
+	</section>
+</section>

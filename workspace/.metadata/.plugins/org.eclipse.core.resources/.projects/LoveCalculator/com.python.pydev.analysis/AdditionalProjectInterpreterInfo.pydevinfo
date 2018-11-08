@@ -1,0 +1,25 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/user/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/LoveCalculator/com.python.pydev.analysis/v2_indexcache
+src.LoveCalculator|1474437259000000000|/home/user/workspace/LoveCalculator/src/LoveCalculator.py
+src.PercentageCalculator|1474277928000000000|/home/user/workspace/LoveCalculator/src/PercentageCalculator.py
+Test|1474440012000000000|/home/user/workspace/LoveCalculator/Test.py
+src.__init__|1474093295000000000|/home/user/workspace/LoveCalculator/src/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+3=src.LoveCalculator
+1=src.PercentageCalculator
+2=Test
+-- END DICTIONARY
+-- START TREE 1
+5
+cal|1|calculate!10@
+n|1|n!19@
+nam|2|name2!27@name1!27@
+num|1|num!19@
+res|1|result!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

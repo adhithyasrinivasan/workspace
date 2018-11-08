@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="RMS" preserve-order="true">
+    <classes>
+      <class name="com.yantra.auto.yrms.scripts.HomePage_Script"/>
+      <class name="com.yantra.auto.yrms.scripts.TransactionDocument_Script"/>
+      <class name="com.yantra.auto.yrms.scripts.Users_Script"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

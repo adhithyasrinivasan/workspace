@@ -1,0 +1,12 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+from cmd import PROMPT
+print ("Enter your name")
+name1=raw_input(PROMPT)
+
+print ("Enter your Lover Name")
+name2=raw_input(PROMPT)
+

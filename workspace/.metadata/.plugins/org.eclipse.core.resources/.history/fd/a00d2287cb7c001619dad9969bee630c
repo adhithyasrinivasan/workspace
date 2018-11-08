@@ -1,0 +1,11 @@
+from src.LoveCalculator import name1
+from src.LoveCalculator import name2
+
+class PercentageCalculator(name1,name2):          
+    def __init__(self):
+#          name1=name1
+#          name2=name2
+         def calculate(self,name1,name2):
+             nam1=name1
+             nam2=name2
+             return nam1+nam2

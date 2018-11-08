@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36442" started-at="2017-12-18T14:33:39Z" finished-at="2017-12-18T14:34:15Z">
+    <groups>
+    </groups>
+    <test name="RMS" duration-ms="36442" started-at="2017-12-18T14:33:39Z" finished-at="2017-12-18T14:34:15Z">
+      <class name="com.yantra.auto.yrms.scripts.Users_Script">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.Users_Script@6767c1fc]" name="setup" is-config="true" duration-ms="3578" started-at="2017-12-18T20:03:53Z" finished-at="2017-12-18T20:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="navigateToUsersPage()[pri:0, instance:com.yantra.auto.yrms.scripts.Users_Script@6767c1fc]" name="navigateToUsersPage" duration-ms="7049" started-at="2017-12-18T20:03:57Z" finished-at="2017-12-18T20:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUsersPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.Users_Script@6767c1fc]" name="tearDown" is-config="true" duration-ms="247" started-at="2017-12-18T20:04:04Z" finished-at="2017-12-18T20:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yantra.auto.yrms.scripts.Users_Script -->
+      <class name="com.yantra.auto.yrms.scripts.TransactionDocument_Script">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.TransactionDocument_Script@4678c730]" name="setup" is-config="true" duration-ms="3574" started-at="2017-12-18T20:03:44Z" finished-at="2017-12-18T20:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="navigateToTransactionDocument()[pri:0, instance:com.yantra.auto.yrms.scripts.TransactionDocument_Script@4678c730]" name="navigateToTransactionDocument" duration-ms="5370" started-at="2017-12-18T20:03:48Z" finished-at="2017-12-18T20:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTransactionDocument -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.TransactionDocument_Script@4678c730]" name="tearDown" is-config="true" duration-ms="315" started-at="2017-12-18T20:03:53Z" finished-at="2017-12-18T20:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yantra.auto.yrms.scripts.TransactionDocument_Script -->
+      <class name="com.yantra.auto.yrms.scripts.HomePage_Script">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="setup" is-config="true" duration-ms="4458" started-at="2017-12-18T20:03:39Z" finished-at="2017-12-18T20:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoadUrl()[pri:0, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="testLoadUrl" duration-ms="255" started-at="2017-12-18T20:03:43Z" finished-at="2017-12-18T20:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="tearDown" is-config="true" duration-ms="254" started-at="2017-12-18T20:03:44Z" finished-at="2017-12-18T20:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="setup" is-config="true" duration-ms="3427" started-at="2017-12-18T20:04:04Z" finished-at="2017-12-18T20:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="login" duration-ms="1656" started-at="2017-12-18T20:04:08Z" finished-at="2017-12-18T20:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="tearDown" is-config="true" duration-ms="334" started-at="2017-12-18T20:04:09Z" finished-at="2017-12-18T20:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="setup" is-config="true" duration-ms="3373" started-at="2017-12-18T20:04:10Z" finished-at="2017-12-18T20:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="totalTransactionData()[pri:2, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="totalTransactionData" duration-ms="2330" started-at="2017-12-18T20:04:13Z" finished-at="2017-12-18T20:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalTransactionData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.HomePage_Script@724af044]" name="tearDown" is-config="true" duration-ms="197" started-at="2017-12-18T20:04:15Z" finished-at="2017-12-18T20:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yantra.auto.yrms.scripts.HomePage_Script -->
+    </test> <!-- RMS -->
+  </suite> <!-- Suite -->
+</testng-results>

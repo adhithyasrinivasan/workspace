@@ -1,0 +1,4 @@
+         def PercentageCalculator(name1,name2):
+             nam1=name1
+             nam2=name2
+             return 90

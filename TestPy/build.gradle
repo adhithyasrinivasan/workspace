@@ -1,0 +1,17 @@
+apply plugin: "com.linkedin.python"
+apply plugin: 'eclipse'
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+    
+  
+  dependencies 
+  {
+    classpath "gradle.plugin.com.linkedin.pygradle:pygradle-plugin:0.4.9"
+  }
+  
+}
+apply plugin: 'com.linkedin.python-cli'

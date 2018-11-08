@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82783" started-at="2016-10-11T05:17:38Z" finished-at="2016-10-11T05:19:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="82783" started-at="2016-10-11T05:17:38Z" finished-at="2016-10-11T05:19:01Z">
+      <class name="com.testcase.loginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcase.loginTest@1500955a]" name="setup" is-config="true" duration-ms="11802" started-at="2016-10-11T10:47:38Z" finished-at="2016-10-11T10:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintestcase()[pri:0, instance:com.testcase.loginTest@1500955a]" name="logintestcase" duration-ms="4391" started-at="2016-10-11T10:47:50Z" finished-at="2016-10-11T10:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintestcase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.loginTest@1500955a]" name="tearDown" is-config="true" duration-ms="110" started-at="2016-10-11T10:47:54Z" finished-at="2016-10-11T10:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcase.loginTest@1500955a]" name="setup" is-config="true" duration-ms="5519" started-at="2016-10-11T10:47:54Z" finished-at="2016-10-11T10:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signin()[pri:1, instance:com.testcase.loginTest@1500955a]" name="signin" duration-ms="24119" started-at="2016-10-11T10:48:00Z" finished-at="2016-10-11T10:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.loginTest@1500955a]" name="tearDown" is-config="true" duration-ms="74" started-at="2016-10-11T10:48:24Z" finished-at="2016-10-11T10:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcase.loginTest@1500955a]" name="setup" is-config="true" duration-ms="4227" started-at="2016-10-11T10:48:24Z" finished-at="2016-10-11T10:48:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editProfile()[pri:2, instance:com.testcase.loginTest@1500955a]" name="editProfile" duration-ms="32387" started-at="2016-10-11T10:48:28Z" finished-at="2016-10-11T10:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.loginTest@1500955a]" name="tearDown" is-config="true" duration-ms="135" started-at="2016-10-11T10:49:01Z" finished-at="2016-10-11T10:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcase.loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

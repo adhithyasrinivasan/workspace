@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rms Test Suite">
+  <test name="Check Login to Transaction Document Page" preserve-order="true">
+    <classes>
+      <!--<class name="com.yantra.auto.yrms.scripts.HomePage_Script"/>
+      <class name="com.yantra.auto.yrms.scripts.Users_Script"/>-->
+      <class name="com.yantra.auto.yrms.scripts.TransactionDocument_Script"/>
+    </classes>
+  </test> <!-- Test -->
+  	<listeners>
+  		<listener class-name="com.yantra.auto.yrms.driver.listeners.ExtentReporterNG" />
+  		<listener class-name="com.yantra.auto.yrms.driver.listeners.AnnotationTransformer" />
+    </listeners>
+</suite> <!-- Suite -->

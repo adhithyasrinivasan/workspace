@@ -1,0 +1,16 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+class MyClass(name1,name2):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        

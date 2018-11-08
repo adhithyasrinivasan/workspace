@@ -1,0 +1,8 @@
+class PercentageCalculator:          
+    def __init__(self):
+         self.name1=name1
+         self.name2=name2
+         def PercentageCalculator(self,name1,name2):
+             nam1=self.name1
+             nam2=self.name2
+             return 90

@@ -1,0 +1,21 @@
+package programs;
+
+public class Pattern {
+	public static void main(String[] args) 
+	{
+		int rows=3;
+		for(int i=1;i<=rows;i++)
+		{
+			for(int j=rows;j>=i;j--)
+			{
+				System.out.print(" ");
+			}
+			for(int k=0;k<i-1;k++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+}

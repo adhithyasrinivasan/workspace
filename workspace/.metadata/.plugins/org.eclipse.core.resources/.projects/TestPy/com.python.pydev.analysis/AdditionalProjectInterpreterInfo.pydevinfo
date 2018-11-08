@@ -1,0 +1,26 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/user/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/TestPy/com.python.pydev.analysis/v2_indexcache
+resource.settings|1473682930000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/resource/settings.py
+SetupPackage.setup|1473773229000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/SetupPackage/setup.py
+test.TestSelenium|1473684276000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/TestSelenium.py
+test.scripts.__init__|1473682790000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/scripts/__init__.py
+test.scripts.scripts|1473684291000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/scripts/scripts.py
+SetupPackage.__init__|1473773066000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/SetupPackage/__init__.py
+resource.__init__|1473679730000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/resource/__init__.py
+test.__init__|1473683178000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/__init__.py
+Main|1473771727000000000|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/Main.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=resource.settings
+1=test.scripts.__init__
+-- END DICTIONARY
+-- START TREE 1
+2
+set|1|setting!11@
+xpa|1|Xpath!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

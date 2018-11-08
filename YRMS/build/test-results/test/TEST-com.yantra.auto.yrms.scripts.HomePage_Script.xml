@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.yantra.auto.yrms.scripts.HomePage_Script" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-12-11T11:49:28" hostname="FT-DESKTOP-019" time="31.36">
+  <properties/>
+  <testcase name="testLoadUrl" classname="com.yantra.auto.yrms.scripts.HomePage_Script" time="0.203"/>
+  <testcase name="login" classname="com.yantra.auto.yrms.scripts.HomePage_Script" time="1.33"/>
+  <testcase name="totalTransactionData" classname="com.yantra.auto.yrms.scripts.HomePage_Script" time="2.283"/>
+  <system-out><![CDATA[Daily transaction volume is : 0
+Error occured while initiating the yrms transaction. The cause is null 
+Daily transaction count is : 0
+]]></system-out>
+  <system-err><![CDATA[1512992968832	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512992968852	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512992968852	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992968935	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/"
+1512992968947	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992969023	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/login/auth"
+1512992969026	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/login/auth"
+1512992992558	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512992992599	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512992992600	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992992706	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/"
+1512992992718	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992992813	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/login/auth"
+1512992992817	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/login/auth"
+1512992992948	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:6080/YRMS/login/auth"
+1512992993049	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:6080/YRMS/login/auth"
+1512992993050	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:6080/YRMS/login/auth"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992993108	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/"
+1512992993135	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992993258	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/search/index"
+1512992993440	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/search/index"
+1512992993607	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:6080/YRMS/search/index"
+1512992993685	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:6080/YRMS/search/index"
+1512992993685	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:6080/YRMS/search/index"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992993733	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/"
+1512992993751	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992993854	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/search/index"
+1512992993879	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/search/index"
+1512992997910	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512992997941	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512992997942	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992998025	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/"
+1512992998038	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992998126	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/login/auth"
+1512992998137	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/login/auth"
+1512992998408	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:6080/YRMS/login/auth"
+1512992998501	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:6080/YRMS/login/auth"
+1512992998501	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:6080/YRMS/login/auth"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992998554	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/"
+1512992998572	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992998694	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/search/index"
+1512992998864	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/search/index"
+1512992998883	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:6080/YRMS/search/index"
+1512992998904	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:6080/YRMS/search/index"
+1512992998904	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:6080/YRMS/search/index"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992998953	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/"
+1512992998970	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/"
+JavaScript warning: http://localhost:6080/YRMS/static/plugins/jquery-1.10.2.2/js/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1512992999102	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:6080/YRMS/search/index"
+1512992999145	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:6080/YRMS/search/index"
+]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+setup.py
+Test/__init__.py
+Test/testing.py
+TestPy.egg-info/PKG-INFO
+TestPy.egg-info/SOURCES.txt
+TestPy.egg-info/dependency_links.txt
+TestPy.egg-info/not-zip-safe
+TestPy.egg-info/requires.txt
+TestPy.egg-info/top_level.txt

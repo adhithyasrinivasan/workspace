@@ -1,0 +1,21 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+from src.LoveCalculator import name1, name2
+class MyClass(name1,name2):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, name1,name2):
+        '''
+        Constructor
+        '''
+        var1=name1
+        var2=name2
+        len1=name1.size()
+        len2=name2.size()
+        return "true"

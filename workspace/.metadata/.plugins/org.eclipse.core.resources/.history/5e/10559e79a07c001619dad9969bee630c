@@ -1,0 +1,18 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+from cmd import PROMPT
+
+print ("----------------------------\n")
+name1=raw_input("Enter your name\n ")
+print("-----------------------------\n")
+name2=raw_input("Enter your Lover Name\n")
+print("-----------------------------\n")
+print("\n Thanks for entering yours and your lovers name")
+print 
+print("Please wait for some time")
+print("We are calculating the match")
+print("Hope you both will be made for each other")
+

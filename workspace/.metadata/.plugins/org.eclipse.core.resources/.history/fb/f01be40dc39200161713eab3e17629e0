@@ -1,0 +1,20 @@
+apply plugin : 'java'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+  compile group: 'org.testng', name: 'testng', version: '6.9.13.6'
+  compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+}
+test {
+    useTestNG() {
+        suites '**/testng.xml'
+    }
+    
+    maxParallelForks=5
+    
+    onOutput { descriptor, event ->
+        logger.lifecycle(event.message )
+     }
+}

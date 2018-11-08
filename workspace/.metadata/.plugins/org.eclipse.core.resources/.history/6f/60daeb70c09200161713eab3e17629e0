@@ -1,0 +1,14 @@
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestNg {
+
+	@Test(testName="NAVIGATE_TO_URL_YES",enabled=false,priority=0)
+	public void logintestcase() 
+	{
+		System.out.println("test");
+		
+	}
+	
+	
+}

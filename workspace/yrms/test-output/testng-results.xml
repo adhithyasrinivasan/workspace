@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42926" started-at="2018-01-09T13:28:10Z" finished-at="2018-01-09T13:28:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42926" started-at="2018-01-09T13:28:10Z" finished-at="2018-01-09T13:28:53Z">
+      <class name="com.yantra.auto.yrms.scripts.RulesPage_Script">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="setup" is-config="true" duration-ms="14276" started-at="2018-01-09T18:58:10Z" finished-at="2018-01-09T18:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNavigateToRulesPage()[pri:0, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="testNavigateToRulesPage" duration-ms="2546" started-at="2018-01-09T18:58:24Z" finished-at="2018-01-09T18:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToRulesPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="tearDown" is-config="true" duration-ms="2082" started-at="2018-01-09T18:58:27Z" finished-at="2018-01-09T18:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="setup" is-config="true" duration-ms="5703" started-at="2018-01-09T18:58:29Z" finished-at="2018-01-09T18:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNavigateToAddRulePage()[pri:1, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="testNavigateToAddRulePage" duration-ms="2677" started-at="2018-01-09T18:58:35Z" finished-at="2018-01-09T18:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToAddRulePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="tearDown" is-config="true" duration-ms="233" started-at="2018-01-09T18:58:37Z" finished-at="2018-01-09T18:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="setup" is-config="true" duration-ms="5809" started-at="2018-01-09T18:58:38Z" finished-at="2018-01-09T18:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMasterHolderNameRule()[pri:2, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="testMasterHolderNameRule" duration-ms="8852" started-at="2018-01-09T18:58:43Z" finished-at="2018-01-09T18:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMasterHolderNameRule -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yantra.auto.yrms.scripts.RulesPage_Script@2b98378d]" name="tearDown" is-config="true" duration-ms="720" started-at="2018-01-09T18:58:52Z" finished-at="2018-01-09T18:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yantra.auto.yrms.scripts.RulesPage_Script -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

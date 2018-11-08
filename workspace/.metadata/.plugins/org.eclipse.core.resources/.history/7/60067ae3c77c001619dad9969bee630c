@@ -1,0 +1,18 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+class MyClass(object):
+    
+    def __init__(self,name1,name2):
+        self.name1=name1
+        self.name2=name2
+    def PercentageCalculator(self,name1,name2):
+            nam1=name1
+            nam2=name2
+            num=25
+            print num
+            return
+        
+    

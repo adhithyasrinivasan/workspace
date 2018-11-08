@@ -1,0 +1,11 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+class MyClass(object):
+    
+    def __init__(name1,name2):
+        name1=name1
+        name2=name2
+        return "20"

@@ -1,0 +1,10 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+from cmd import PROMPT
+print ("Enter your name")
+name1=input(PROMPT)
+name2=input(PROMPT)
+

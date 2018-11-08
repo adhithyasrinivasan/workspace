@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="RMS(failed)">
+    <classes>
+      <class name="com.yantra.auto.yrms.scripts.HomePage_Script">
+        <methods>
+          <include name="totalTransactionData"/>
+          <include name="tearDown"/>
+          <include name="testLoadUrl"/>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.yantra.auto.yrms.scripts.HomePage_Script -->
+      <class name="com.yantra.auto.yrms.scripts.TransactionDocument_Script">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="navigateToTransactionDocument"/>
+        </methods>
+      </class> <!-- com.yantra.auto.yrms.scripts.TransactionDocument_Script -->
+      <class name="com.yantra.auto.yrms.scripts.Users_Script">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToUsersPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.yantra.auto.yrms.scripts.Users_Script -->
+    </classes>
+  </test> <!-- RMS(failed) -->
+</suite> <!-- Failed suite [Suite] -->

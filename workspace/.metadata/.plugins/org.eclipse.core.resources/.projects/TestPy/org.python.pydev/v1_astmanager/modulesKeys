@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+Main|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/Main.py
+SetupPackage.__init__|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/SetupPackage/__init__.py
+SetupPackage.setup|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/SetupPackage/setup.py
+resource.__init__|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/resource/__init__.py
+resource.settings|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/resource/settings.py
+test.TestSelenium|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/TestSelenium.py
+test.__init__|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/__init__.py
+test.scripts.__init__|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/scripts/__init__.py
+test.scripts.scripts|/home/user/git/Python-Pydev-Tutorials/eclipsetutorial/TestPy/test/scripts/scripts.py

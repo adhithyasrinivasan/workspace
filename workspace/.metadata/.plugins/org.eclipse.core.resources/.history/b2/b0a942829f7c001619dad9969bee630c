@@ -1,0 +1,8 @@
+'''
+Created on 17-Sep-2016
+
+@author: user
+'''
+name1=input()
+name2=input()
+

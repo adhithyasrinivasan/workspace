@@ -1,0 +1,23 @@
+import java.io.*;
+import java.io.FileInputStream.*;
+import java.util.*;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+public class TestExcel {
+
+	public static void main(String args[])
+	{
+		String filePath=".//InputData";
+		File file=new File(filePath+"\\"+"test.xls");
+		try {
+			FileInputStream fs=new FileInputStream(file);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+}
