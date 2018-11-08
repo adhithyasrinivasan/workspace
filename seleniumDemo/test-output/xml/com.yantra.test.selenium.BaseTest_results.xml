@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankerPortal Regression Tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.152">
+  <properties />
+  
+  
+            <testcase name="testLoadPage" time="5.628" classname="com.yantra.test.selenium.BaseTest" />
+                <testcase name="testNavigateToInstitutionPage" time="1.186" classname="com.yantra.test.selenium.BaseTest" />
+                <testcase name="testLogin" time="0.338" classname="com.yantra.test.selenium.BaseTest" />
+      
+</testsuite>

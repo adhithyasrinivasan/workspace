@@ -1,0 +1,28 @@
+package seleniumDemo;
+
+import java.util.Map;
+
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Test {
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriver driver=null;
+		System.setProperty("webdriver.gecko.driver", "../yrms/./config/webdrivers/gecko_new");
+		Cookie jsession = new Cookie("Cookie", "JSESSIONID=DFBC1733172EDFEC0031E7B8E38ACF94.1024215533; ak_bmsc=86D20C781AD0451B67D17EBBE783236717201D4CF6340000E77FE25B1BBEE816~plj/L/g20cLvFjvHcuTLjEtGmcQVhrKC8UCA4WH0NdybBJY/8d/SaPRVWAIK1j830zZ3dpE53Mt1xOlCRNt8XtXWgS/gNge+xJsSJxnefj6KbU0ynb6aJTA3NPtl9qa9FY6Ykm06Nq66iacRdXPJ6Uuywgr94nCrc0eG+UqrWCrmnu9hM2qkZAStRxw44omOpVpE1ogN/nwQ1Lt0Vy6zyifPrxBGF0jhAkOnufreQVnDa2foGLD+i5b/Y8IyrHxz+4; __utma=1.498249842.1541570536.1541574608.1541576526.3; __utmc=1; __utmz=1.1541576526.3.3.utmcsr=id.sonyentertainmentnetwork.com|utmccn=(referral)|utmcmd=referral|utmcct=/; bm_sv=39E7B8386EDCFC4FE3F7667A5751A913~D3Bj+FvHyAlK8pNNnmYRrxZazyu9QORNR8q9grX0WdXGDXJLjms0uytD9OOR9tUUc8uG7SpXcNmhKMfQc7jc8a2ro5y4eSvVSioG8iPHaQeVDlbv5X9Kcj310odGr2yr1bOrpCvJdZjlqAQqYS/Sj4y+81yIXXQXFHUSnyRTz3aq3dAzX5kIqrduiG8ix1lk; s_fid=7E0798156440F1A2-2965EEECCD65F5BF; s_cc=true; s_sq=%5B%5BB%5D%5D; __utmb=1.2.10.1541576526; __utmt=1",".sonyentertainmentnetwork.com","/",null);
+		Cookie cookie = new Cookie("Cookie", "JSESSIONID=DFBC1733172EDFEC0031E7B8E38ACF94.1024215533; ak_bmsc=86D20C781AD0451B67D17EBBE783236717201D4CF6340000E77FE25B1BBEE816~plj/L/g20cLvFjvHcuTLjEtGmcQVhrKC8UCA4WH0NdybBJY/8d/SaPRVWAIK1j830zZ3dpE53Mt1xOlCRNt8XtXWgS/gNge+xJsSJxnefj6KbU0ynb6aJTA3NPtl9qa9FY6Ykm06Nq66iacRdXPJ6Uuywgr94nCrc0eG+UqrWCrmnu9hM2qkZAStRxw44omOpVpE1ogN/nwQ1Lt0Vy6zyifPrxBGF0jhAkOnufreQVnDa2foGLD+i5b/Y8IyrHxz+4; __utma=1.498249842.1541570536.1541574608.1541576526.3; __utmc=1; __utmz=1.1541576526.3.3.utmcsr=id.sonyentertainmentnetwork.com|utmccn=(referral)|utmcmd=referral|utmcct=/; bm_sv=39E7B8386EDCFC4FE3F7667A5751A913~D3Bj+FvHyAlK8pNNnmYRrxZazyu9QORNR8q9grX0WdXGDXJLjms0uytD9OOR9tUUc8uG7SpXcNmhKMfQc7jc8a2ro5y4eSvVSioG8iPHaQeVDlbv5X9Kcj310odGr2yr1bOrpCvJdZjlqAQqYS/Sj4y+81yIXXQXFHUSnyRTz3aq3dAzX5kIqrduiG8ix1lk; s_fid=7E0798156440F1A2-2965EEECCD65F5BF; s_cc=true; s_sq=%5B%5BB%5D%5D; __utmb=1.2.10.1541576526; __utmt=1",".sonyentertainmentnetwork.com","/",null);
+		driver= new FirefoxDriver();
+		driver.get("https://id.sonyentertainmentnetwork.com/101");
+		driver.manage().addCookie(cookie);
+		driver.get("https://account.sonyentertainmentnetwork.com/liquid/cam/account/giftcard/redeem-gift-card-flow.action");
+		Thread.sleep(10000);
+		
+		driver.quit();
+
+		
+	}
+	
+}

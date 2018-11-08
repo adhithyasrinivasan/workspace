@@ -1,0 +1,38 @@
+import java.util.HashMap;
+import java.util.Map;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+class Library
+{
+	static RequestSpecification requestSpecification=RestAssured.given();
+	public static void callToken()
+	{
+		//requestSpecification.baseUri("https://account.sonyentertainmentnetwork.com/liquid/cam/account/giftcard/redeem-gift-card-flow.action?execution=e1s1&f=");
+		Map parametersMap=new HashMap();
+		parametersMap.put("captcha_provider","google:recaptcha-v2");
+		parametersMap.put("client_id","71a7beb8-f21a-47d9-a604-2e71bee24fe0");
+		parametersMap.put("client_secret","xSk2YI8qJqZfeLQv");
+		parametersMap.put("grant_type","captcha");
+		parametersMap.put("valid_for","adhithyasrinivasan@outlook.in");
+		parametersMap.put("scope","oauth:authenticate");
+		parametersMap.put("response_token","03ADlfD198rlA9pFjxUhIqfkoN60Xo1mCOU-phIZ888D9LQ-3tMEoUna7heMg-0gnaLx4aZSPN88ayGEm1olXq0ZgjwxD6PWMtF-b36W9aRZQ0PZNabXmam4ZrjGOQPWCUiTkPEN8N5dL1GtD9qUcjhluIB8WQrhthjy2mGCh2zfFgm0qjM02vWbcReEJT6tryle5Z7WwBsDG4P1u9NhESYFjM0GyI3KxAQZgscW-E1hPdrnt3MSOVQYsAUtkfl0f82ZuC6RMlzJ_PpLMIqV5AtwglStK7IjPUfIqwZrmDY0IXsFOfMlme4mI");
+		Response response = requestSpecification.formParameters(parametersMap).post("https://auth.api.sonyentertainmentnetwork.com/2.0/oauth/token");
+		System.out.println(response.asString());
+	}
+	public static void callCaptcha()
+	{
+		//requestSpecification.baseUri("https://account.sonyentertainmentnetwork.com/liquid/cam/account/giftcard/redeem-gift-card-flow.action?execution=e1s1&f=");
+		Map parametersMap=new HashMap();
+		requestSpecification.queryParam("k", "6LdSoRkTAAAAAAhKr1g2Zy4cCtE4hrgwIBdMYhXL");
+		System.out.println(requestSpecification.q);
+		Response response = requestSpecification.request("https://www.google.com/recaptcha/api2/reload");
+		System.out.println(response.asString());
+	}
+	public static void main(String[] args) {
+		callCaptcha();
+		callToken();
+	}
+}

@@ -1,0 +1,23 @@
+package seleniumDemo;
+
+import java.util.Map;
+
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Test {
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriver driver=null;
+		System.setProperty("webdriver.gecko.driver", "../yrms/./config/webdrivers/gecko_new");
+		Cookie cookie = new Cookie(name, value);
+		driver= new FirefoxDriver();
+		
+		driver.quit();
+
+		
+	}
+	
+}

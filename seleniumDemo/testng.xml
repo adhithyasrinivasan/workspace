@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BankerPortal Regression Suite">
+<listeners>
+      <!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+      <!-- <listener class-name="com.yantra.test.selenium.driver.CustomHtmlReporter"/> -->
+      <listener class-name="com.yantra.test.selenium.driver.JyperionListener"/>
+  </listeners>
+  <test name="BankerPortal Regression Tests">
+     <!-- <classes>
+      <class name="com.yantra.test.selenium.BaseTest"/>
+      <class name="com.yantra.test.selenium.AddDataTest"/>
+    </classes> --> 
+    <packages>
+			<package name="com.yantra.test.selenium.*" />
+	</packages>
+	  
+  </test> <!-- Test -->
+   
+</suite> <!-- Suite -->

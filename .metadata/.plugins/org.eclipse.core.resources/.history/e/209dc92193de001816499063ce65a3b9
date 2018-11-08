@@ -1,0 +1,35 @@
+package collections;
+
+public class TestString {
+	
+	public static void main(String[] args) {
+		char a[]="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toCharArray();
+		for(int ak=0;ak<10;ak++)
+		{
+			String t="";
+			for(int i=0;i<5;i++)
+			{
+				for(int j=0;j<5;j++)
+				{
+					for(int k=0;k<5;k++)
+					{
+						for(int l=0;l<5;l++)
+						{
+							for(int m=0;m<5;m++)
+							{
+								if(i==j || i==k || i==l || i==m || j==k || j==l || j==m || l==m)
+								{
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		System.out.println(t);	
+		}
+		
+		
+	}
+
+}

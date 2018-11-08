@@ -1,0 +1,20 @@
+package collections;
+
+import java.util.AbstractMap;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class MapDemo {
+	public static void main(String[] args) {
+		Map< String,String> map = new HashMap<>();
+		map.put("a", "bb");
+		Set<String> set=new TreeSet();
+		set.addAll((Collection<? extends String>) map);
+		
+		
+	}
+
+}

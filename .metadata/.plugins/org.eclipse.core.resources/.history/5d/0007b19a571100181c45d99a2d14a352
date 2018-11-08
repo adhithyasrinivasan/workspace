@@ -1,0 +1,327 @@
+package com.yantra.auto.yrms.scripts;
+
+import java.io.IOException;
+
+import org.apache.http.client.ClientProtocolException;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.yantra.auto.yrms.apirequest.RMSRequest;
+import com.yantra.auto.yrms.apirequest.RestService;
+import com.yantra.auto.yrms.apirequest.RestTransaction;
+import com.yantra.auto.yrms.driver.BaseClass;
+import com.yantra.auto.yrms.driver.CommonFunctions;
+import com.yantra.auto.yrms.driver.util.GenerateUniqueData;
+import com.yantra.auto.yrms.driver.util.GetMachineFingerprint;
+
+public class RulesPage_Script extends BaseClass
+{
+	@Test(priority=0,testName="NAVIGATE_TO_RULE_LIST_YES")
+	public void testNavigateToRulesPage() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_home.logout();
+	}
+	@Test(priority=1,testName="NAVIGATE_TO_ADD_RULE_PAGE_YES")
+	public void testNavigateToAddRulePage() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		_home.logout();
+	}
+	@Test(priority=2,testName="TEST_MASTER_HOLDER_NAME_RULE_YES")
+	public void testMasterHolderNameRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("MHolderName");
+		String riskScore="175";
+		_rulesPage.addRule(ruleName,"ALL","MASTER HOLDER NAME","CUSTOM",RMSRequest.maccountInputData.get(0).get(9),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=3,testName="TEST_SECONDARY_HOLDER_NAME_RULE_YES")
+	public void testSecondaryHolderNameRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("SHolderName");
+		String riskScore="175";
+		_rulesPage.addRule(ruleName,"ALL","SECONDARY HOLDER NAME","CUSTOM",RMSRequest.saccountInputData.get(0).get(22),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=4,testName="TEST_MASTER_HOLDER_ID_RULE_YES")
+	public void testMasterHolderIDRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("MHolderID");
+		String riskScore="174";
+		_rulesPage.addRule(ruleName,"ALL","MASTER HOLDER ID","CUSTOM",RMSRequest.maccountInputData.get(0).get(8),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=5,testName="TEST_SECONDARY_HOLDER_ID_RULE_YES")
+	public void testSecondaryHolderIDRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("SHolderID");
+		String riskScore="174";
+		_rulesPage.addRule(ruleName,"ALL","SECONDARY HOLDER ID","CUSTOM",RMSRequest.saccountInputData.get(0).get(11),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=6,testName="TEST_MASTER_HOLDER_DOB_RULE_YES") 
+	public void testMasterDOBRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("MHolderDOB");
+		String riskScore="176";
+		_rulesPage.addRule(ruleName,"ALL","MASTER DATE OF BIRTH","CUSTOM",RMSRequest.maccountInputData.get(0).get(15),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=7,testName="TEST_MASTER_HOLDER_DOE_RULE_YES") 
+	public void testMasterDOERule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("MHolderDOE");
+		String riskScore="176";
+		_rulesPage.addRule(ruleName,"ALL","MASTER DATE OF ESTABLISHMENT","CUSTOM",RMSRequest.maccountInputData.get(0).get(12),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=8,testName="TEST_SECONDARY_HOLDER_DOB_RULE_YES") 
+	public void testSecondaryDOBRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("SHolderDOB");
+		String riskScore="176";
+		_rulesPage.addRule(ruleName,"ALL","SECONDARY DATE OF BIRTH","CUSTOM",RMSRequest.saccountInputData.get(0).get(8),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=9,testName="TEST_SECONDARY_HOLDER_DOE_RULE_YES") 
+	public void testSecondaryDOERule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("SHolderDOE");
+		String riskScore="176";
+		_rulesPage.addRule(ruleName,"ALL","SECONDARY DATE OF ESTABLISHMENT","CUSTOM",RMSRequest.saccountInputData.get(0).get(13),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=10,testName="TEST_MACHINE_IP_RULE_YES") 
+	public void testMFPIPRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("MFPIP");
+		String riskScore="177";
+		_rulesPage.addRule(ruleName,"ALL","MFP IP ADDRESS","CUSTOM",GetMachineFingerprint.getMachineAddress("ipaddress"),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=11,testName="TEST_MACHINE_MAC_RULE_YES") 
+	public void testMFPMACRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("MFPMAC");
+		String riskScore="177";
+		_rulesPage.addRule(ruleName,"ALL","MFP MAC ADDRESS","CUSTOM",GetMachineFingerprint.getMachineAddress("macaddress"),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=12,testName="TEST_TRANSACTION_NUMBER_RULE_YES") 
+	public void testTransactionNumberRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("TransNumber");
+		String riskScore="178";
+		_rulesPage.addRule(ruleName,"ALL","TRANSACTION NUMBER","CUSTOM",RMSRequest.transactionInputData.get(0).get(5),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=13,testName="TEST_TRANSACTION_CODE_RULE_YES") 
+	public void testTransactionCodeRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("TransCode");
+		String riskScore="178";
+		_rulesPage.addRule(ruleName,"ALL","TRANSACTION CODE","CUSTOM",RMSRequest.transactionInputData.get(0).get(2),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=14,testName="TEST_SETTLEMENT_TYPE_RULE_YES") 
+	public void testSettlementTypeRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("TransCode");
+		String riskScore="178";
+		_rulesPage.addRule(ruleName,"ALL","SETTLEMENT TYPE","CUSTOM",RMSRequest.transactionInputData.get(0).get(7),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=15,testName="TEST_PROCESSING_CODE_RULE_YES") 
+	public void testProcessingCodeRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("ProcessCode");
+		String riskScore="178";
+		_rulesPage.addRule(ruleName,"ALL","PROCESSING CODE","CUSTOM",RMSRequest.transactionInputData.get(0).get(9),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=16,testName="TEST_ORIGIN_COUNTRY_CODE_RULE_YES") 
+	public void testOriginCountryCodeRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("OriginCode");
+		String riskScore="178";
+		_rulesPage.addRule(ruleName,"ALL","ORIGIN COUNTRY CODE","CUSTOM",RMSRequest.transactionInputData.get(0).get(10),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	@Test(priority=17,testName="TEST_RECEIVING_COUNTRY_CODE_RULE_YES") 
+	public void testReceivingCountryCodeRule() throws Exception
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_rulesPage.clickRulesLink();
+		_rulesPage.navigateToRulesPage();
+		_rulesPage.navigateToAddRulePage();
+		String ruleName=_rulesPage.getUniqueRuleName("ReceivingCode");
+		String riskScore="178";
+		_rulesPage.addRule(ruleName,"ALL","RECEIVING COUNTRY CODE","CUSTOM",RMSRequest.transactionInputData.get(0).get(11),riskScore);
+		try{RestTransaction.initiateYrmsQueueTransaction();} catch(Exception e) {e.printStackTrace();throw e;}
+		_rulesPage.disableRule(ruleName);
+		_transactionDocument.loginToTransactionDocument();
+		_transactionDocument.navigateToTransactionRiskReportPage(riskScore);
+		_transactionDocument.checkRiskReportDetails(riskScore,ruleName,RMSRequest.transactionInputData.get(0).get(0));
+		_home.logout();
+	}
+	
+}

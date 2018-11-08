@@ -1,0 +1,14 @@
+package collections;
+
+public class AnonymousInner {
+	
+private	int rand;
+	public class Inner
+	{
+		public int retrun()
+		{
+			return rand;
+		}
+	}
+
+}

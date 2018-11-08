@@ -1,0 +1,17 @@
+package com.yantra.auto.yrms.scripts.reports;
+
+import org.testng.annotations.Test;
+
+import com.yantra.auto.yrms.driver.BaseClass;
+
+public class RiskReport_Script extends BaseClass {
+
+	@Test(priority=0)
+	public void testRiskReport() throws Exception 
+	{
+		_home.navigatetoUrl();
+		_home.loginToRms();
+		_riskReportPage.navigateToRiskReportPage();
+		_home.logout();
+	}
+}

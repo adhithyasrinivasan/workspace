@@ -1,0 +1,11 @@
+package collections;
+
+public class AnonymousInner {
+	
+	int rand;
+	public class inner
+	{
+		
+	}
+
+}

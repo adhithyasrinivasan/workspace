@@ -1,0 +1,29 @@
+package seleniumDemo;
+
+import java.util.Map;
+
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Test {
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriver driver=null;
+		System.setProperty("webdriver.gecko.driver", "../yrms/./config/webdrivers/gecko_new");
+		Cookie jsession = new Cookie("JSESSIONID", "DFBC1733172EDFEC0031E7B8E38ACF94.1024215533",".sonyentertainmentnetwork.com","/",null);
+		Cookie utma = new Cookie("__utma","1.498249842.1541570536.1541576526.1541585959.4",".sonyentertainmentnetwork.com","/",null);
+		driver= new FirefoxDriver();
+		driver.get("https://id.sonyentertainmentnetwork.com/101");
+		driver.manage().addCookie(cookie);
+		driver.get("https://account.sonyentertainmentnetwork.com/liquid/cam/account/giftcard/redeem-gift-card-flow.action");
+		Thread.sleep(10000);
+		
+		driver.quit();
+		
+
+		
+	}
+	
+}

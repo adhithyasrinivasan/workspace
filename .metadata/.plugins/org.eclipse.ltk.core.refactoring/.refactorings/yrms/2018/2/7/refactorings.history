@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.yantra.auto.yrms.data.MainRequest.UUID&apos; in &apos;com.yantra.auto.yrms.data.MainRequest&apos;&#x0A;- Original project: &apos;yrms&apos;&#x0A;- Original element: &apos;com.yantra.auto.yrms.data.MainRequest.UUID&apos;&#x0A;- Getter method name: &apos;getUUID&apos;&#x0A;- Setter method name: &apos;setUUID&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;UUID&apos;" flags="589830" getter="getUUID" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java&lt;com.yantra.auto.yrms.data{MainRequest.java[MainRequest^UUID" insertion="40" setter="setUUID" stamp="1518523745248" version="1.0" visibility="1"/>
+</session>

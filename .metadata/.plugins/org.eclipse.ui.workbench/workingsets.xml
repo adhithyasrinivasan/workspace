@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1515669006297_1" label="yrms" name="yrms">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Rabbit" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/yrms" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1515668933368_0" label="Window Working Set" name="Aggregate for window 1515668933367"/>
+</workingSetManager>

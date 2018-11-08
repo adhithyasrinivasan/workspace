@@ -1,0 +1,19 @@
+package collections;
+
+public class ThreadDemo implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Entering into run");
+		
+	}
+	public static void main(String args[])
+	{
+		ThreadDemo td1 = new ThreadDemo();
+		ThreadDemo td2 = new ThreadDemo();
+		td.run();
+	}
+
+}

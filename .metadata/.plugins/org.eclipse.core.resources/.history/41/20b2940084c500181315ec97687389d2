@@ -1,0 +1,33 @@
+package collections;
+
+public class ThreadDemo implements Runnable
+{
+
+	public void add() {
+		synchronized(this)){
+		for(int i=1;i<1000;i++){
+			System.out.println("Entering into run "+i+Thread.currentThread().getName());
+			try {
+                Thread.sleep((int)(Math.random() * 1000));
+            } catch (InterruptedException e) {}
+		}
+		}
+	}
+	public static void main(String args[])
+	{
+		ThreadDemo td1 = new ThreadDemo("ead");
+		Thread thread = new Thread(td1);
+		ThreadDemo td2 = new ThreadDemo("dda");
+		Thread thread1 = new Thread(td2);
+		thread.start();
+		thread1.start();
+			
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		this.add();
+		
+	}
+
+}

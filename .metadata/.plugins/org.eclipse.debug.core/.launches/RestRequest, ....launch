@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="yrms"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.yantra.auto.yrms.driver.InputData"/>
+<listEntry value="com.yantra.auto.yrms.data.SAccount"/>
+<listEntry value="com.yantra.auto.yrms.driver.listeners.AnnotationTransformer"/>
+<listEntry value="com.yantra.auto.yrms.data.OfacTransactionCall"/>
+<listEntry value="com.yantra.auto.yrms.data.Institution"/>
+<listEntry value="com.yantra.auto.yrms.driver.util.GenerateUniqueData"/>
+<listEntry value="com.yantra.auto.yrms.ui.pages.RulesPage"/>
+<listEntry value="com.yantra.auto.yrms.driver.CommonFunctions"/>
+<listEntry value="com.yantra.auto.yrms.driver.ExcelConnectivity"/>
+<listEntry value="com.yantra.auto.yrms.driver.GlobalSettings"/>
+<listEntry value="com.yantra.auto.yrms.data.Geolocation"/>
+<listEntry value="com.yantra.auto.yrms.scripts.RulesPage_Script"/>
+<listEntry value="com.yantra.auto.yrms.data.MAccountHolder"/>
+<listEntry value="com.yantra.auto.yrms.data.SAccountHolder"/>
+<listEntry value="com.yantra.auto.yrms.data.MAccount"/>
+<listEntry value="com.yantra.auto.yrms.driver.util.GetMachineFingerprint"/>
+<listEntry value="com.yantra.auto.yrms.scripts.Users_Script"/>
+<listEntry value="com.yantra.auto.yrms.data.MainRequest"/>
+<listEntry value="com.yantra.auto.yrms.driver.listeners.ExtentReporterNG"/>
+<listEntry value="com.yantra.auto.yrms.data.Ofac"/>
+<listEntry value="com.yantra.auto.yrms.ui.pages.Userspage"/>
+<listEntry value="com.yantra.auto.yrms.apirequest.RestService"/>
+<listEntry value="com.yantra.auto.yrms.ui.pages.Homepage"/>
+<listEntry value="com.yantra.auto.yrms.data.MachineFingerPrint"/>
+<listEntry value="com.yantra.auto.yrms.data.Address"/>
+<listEntry value="com.yantra.auto.yrms.ui.pages.TransactionDocument"/>
+<listEntry value="com.yantra.auto.yrms.apirequest.RestTransaction"/>
+<listEntry value="com.yantra.auto.yrms.data.ReqList"/>
+<listEntry value="com.yantra.auto.yrms.scripts.TransactionDocument_Script"/>
+<listEntry value="com.yantra.auto.yrms.driver.BaseClass"/>
+<listEntry value="com.yantra.auto.yrms.apirequest.RMSRequest"/>
+<listEntry value="com.yantra.auto.yrms.driver.MongoDBConnector"/>
+<listEntry value="com.yantra.auto.yrms.data.YrmsRiskResult"/>
+<listEntry value="com.yantra.auto.yrms.scripts.HomePage_Script"/>
+<listEntry value="com.yantra.auto.yrms.driver.util.DateUtil"/>
+<listEntry value="com.yantra.auto.yrms.data.Contact"/>
+<listEntry value="com.yantra.auto.yrms.driver.AutomationBase"/>
+<listEntry value="com.yantra.auto.yrms.driver.GlobalKeys"/>
+<listEntry value="com.yantra.auto.yrms.apirequest.RestRequest"/>
+<listEntry value="com.yantra.auto.yrms.data.Terminal"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

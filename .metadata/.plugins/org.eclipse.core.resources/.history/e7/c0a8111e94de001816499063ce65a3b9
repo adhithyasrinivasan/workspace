@@ -1,0 +1,41 @@
+package collections;
+
+import java.util.Calendar;
+
+public class TestString {
+	
+	public static void main(String[] args) {
+		char a[]="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toCharArray();
+		
+			String t="";
+			Calendar cal = Calendar.getInstance();
+			long startTime = cal.getTimeInMillis();
+			for(int i=0;i<a.length;i++)
+			{
+				for(int j=0;j<a.length;j++)
+				{
+					for(int k=0;k<a.length;k++)
+					{
+						for(int l=0;l<a.length;l++)
+						{
+							for(int m=0;m<a.length;m++)
+							{
+								if(i==j || i==k || i==l || i==m || j==k || j==l || j==m || l==m)
+								{
+									System.out.printf("%c%c%c%c%c\n",a[i],a[j],a[k],a[l],a[m]);
+								}
+							}
+						}
+					}
+				}
+			long endTime=cal.getTimeInMillis();
+			System.out.println("Start "+startTime);
+			System.out.println("End "+endTime);
+			System.out.println("Total "+(endTime-startTime));
+		System.out.println(t);	
+		}
+		
+		
+	}
+
+}
